@@ -5,8 +5,9 @@ $(document).ready(function(){
      $(this).css('color','blue');
     });
 
+
 $.ajax({
-    url:'https://api.unsplash.com/collections?page=1&client_id=ab174486c6960192fbb5cd13997305e3abdd3f21658ed7a6a10ba1816e7a1845',
+    url:'js/MOCK_DATA.json',
     type:'GET',
     data:'json',
     success: function(data){
